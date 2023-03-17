@@ -39,6 +39,25 @@ input[class^="btn-"]:hover {
   background-color: $main-color;
 }
 
+// Backgrounds
+.bg {
+  &-main {
+    background-color: $main-color;
+    color: set-text-color($main-color);
+  }
+  &-light {
+    background-color: $light-color;
+    color: set-text-color($light-color);
+  }
+  &-dark {
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-medium {
+    background-color: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -51,32 +70,32 @@ input[class^="btn-"]:hover {
 // Padding
 .py {
   &-1 {
-    padding: 1 rem 0;
+    padding: 1rem 0;
   }
   &-2 {
-    padding: 2 rem 0;
+    padding: 2rem 0;
   }
   &-3 {
-    padding: 3 rem 0;
+    padding: 3rem 0;
   }
   &-4 {
-    padding: 4 rem 0;
+    padding: 4rem 0;
   }
 }
 
 // Margin
 .my {
   &-1 {
-    margin: 1 rem 0;
+    margin: 1rem 0;
   }
   &-2 {
-    margin: 2 rem 0;
+    margin: 2rem 0;
   }
   &-3 {
-    margin: 3 rem 0;
+    margin: 3rem 0;
   }
   &-4 {
-    margin: 4 rem 0;
+    margin: 4rem 0;
   }
 }
 
