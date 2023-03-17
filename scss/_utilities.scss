@@ -28,7 +28,7 @@
   }
   &-dark {
     @extend %btn-shared;
-    color: #f4f4f4;
+    color: #fff;
     background-color: $dark-color;
   }
 }
