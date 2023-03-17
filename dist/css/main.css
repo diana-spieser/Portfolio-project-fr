@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #e176e9; }
 
 .btn-light {
   color: #333;
@@ -26,11 +26,11 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00; }
+  background-color: #e176e9; }
 
 .bg-main {
-  background-color: #ffbc00;
-  color: #fff; }
+  background-color: #e176e9;
+  color: #000; }
 
 .bg-light {
   background-color: #f4f4f4;
@@ -86,7 +86,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background-color: #ffbc00;
+  background-color: #e176e9;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^="btn-"]:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #e176e9;
   overflow: hidden; }
   .item:after {
     content: "";
@@ -205,7 +205,7 @@ img {
     padding: 1rem 1.5rem; }
     #main-nav li a {
       text-decoration: none;
-      color: #fff;
+      color: #333;
       text-transform: uppercase;
       border-bottom: 3px transparent solid;
       padding-bottom: 0.5rem;
@@ -213,12 +213,12 @@ img {
       #main-nav li a:hover {
         border-color: #ccc; }
       #main-nav li a.current {
-        border-color: #ffbc00; }
+        border-color: #e176e9; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
-  color: #fff; }
+  color: #333; }
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }
@@ -229,7 +229,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #e176e9; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -237,7 +237,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffbc00;
+    color: #e176e9;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -267,8 +267,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
-    color: #fff;
+    background: #e176e9;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -287,8 +287,8 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
-      color: #fff;
+      background: #e176e9;
+      color: #000;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -305,7 +305,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #e176e9;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -320,7 +320,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #e176e9;
   margin: 1rem; }
 
 #about-b .progress {
@@ -333,7 +333,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background-color: #ffbc00; }
+    background-color: #e176e9; }
 
 #about-c .about-logos {
   display: grid;
@@ -408,7 +408,7 @@ img {
       line-height: 20px;
       text-align: center; }
       #main-footer .footer-content .social .fab:hover {
-        color: #ffbc00; }
+        color: #e176e9; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -424,7 +424,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #e176e9;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
