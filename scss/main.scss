@@ -1,6 +1,6 @@
-@import "config";
-@import "utilities";
-@import "item_grid";
+@import 'config';
+@import 'utilities';
+@import 'item_grid';
 //Genral Styles
 
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -35,8 +35,8 @@ img {
 
 //Logo
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -209,8 +209,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+        'bioimage bio bio'
+        'aw1 aw2 aw3';
       grid-gap: 1.2rem;
     }
     // Grid Area
@@ -305,9 +305,9 @@ img {
     .text-fields {
       display: grid;
       grid-template-areas:
-        "name email"
-        "subject phone "
-        "message message";
+        'name email'
+        'subject phone '
+        'message message';
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
 
@@ -333,7 +333,7 @@ img {
         padding: 0.5rem 1rem;
       }
     }
-    button[type="submit"] {
+    button[type='submit'] {
       width: 50%;
     }
   }
@@ -361,25 +361,30 @@ img {
   background: $dark-color;
   color: #fff;
   height: 5rem;
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    height: 5rem;
-    align-items: center;
-
-    .social .fab {
-      margin-right: 1rem;
-      // border: 2px solid #fff;
-      // border-radius: 50%;
-      padding: 0.5rem;
-      line-height: 20px;
-      text-align: center;
-
-      &:hover {
-        color: $main-color;
-      }
-    }
-  }
 }
-@import "media";
+
+#main-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+
+#main-footer #social a {
+  text-decoration: none;
+  color: $main-color;
+}
+
+#main-footer #social .fab {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#main-footer #social .fab:hover {
+  color: $main-color;
+}
+
+@import 'media';
