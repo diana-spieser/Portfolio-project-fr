@@ -370,12 +370,12 @@ img {
   align-items: center;
 }
 
-#main-footer #social a {
+.social .social-link a {
   text-decoration: none;
   color: $main-color;
 }
 
-#main-footer #social .fab {
+.social .social-link .fab {
   margin-right: 1rem;
   padding: 0.5rem;
   line-height: 20px;
@@ -383,7 +383,7 @@ img {
   color: #fff;
 }
 
-#main-footer #social .fab:hover {
+.social .social-link:hover .fab {
   color: $main-color;
 }
 

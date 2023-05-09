@@ -404,18 +404,18 @@ img {
   height: 5rem;
   align-items: center; }
 
-#main-footer #social a {
+.social .social-link a {
   text-decoration: none;
   color: #e176e9; }
 
-#main-footer #social .fab {
+.social .social-link .fab {
   margin-right: 1rem;
   padding: 0.5rem;
   line-height: 20px;
   text-align: center;
   color: #fff; }
 
-#main-footer #social .fab:hover {
+.social .social-link:hover .fab {
   color: #e176e9; }
 
 @media (max-width: 800px) {
