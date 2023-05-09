@@ -388,6 +388,14 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.2rem;
   text-align: center; }
+  #contact-b .contact-info:hover {
+    color: #e176e9; }
+
+#contact-b .contact-info .contact-link p {
+  text-decoration: none;
+  color: #fff; }
+  #contact-b .contact-info .contact-link p:hover {
+    color: #e176e9; }
 
 #contact-b-c h1 {
   text-align: center;
@@ -454,11 +462,12 @@ img {
   #home-b .stats div {
     padding: 2rem 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
+    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
   #about-c {
     display: none; }
-  #contact-a .textfields {
-    grid-template-columns: "name" "sunject" "email" "phone" "message"; }
+  #contact-a .text-fields {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;

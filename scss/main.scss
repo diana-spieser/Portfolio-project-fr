@@ -344,6 +344,16 @@ img {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1.2rem;
       text-align: center;
+      &:hover {
+        color: $main-color;
+      }
+    }
+    .contact-info .contact-link p {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: $main-color;
+      }
     }
 
     &-c {
@@ -386,13 +396,5 @@ img {
 .social .social-link:hover .fab {
   color: $main-color;
 }
-
-
-
-
-
-
-
-
 
 @import 'media';

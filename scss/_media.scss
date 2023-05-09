@@ -69,11 +69,11 @@
     &-a {
       .about-info {
         grid-template-areas:
-          "bioimage"
-          "bio"
-          "aw1"
-          "aw2"
-          "aw3";
+          'bioimage'
+          'bio'
+          'aw1'
+          'aw2'
+          'aw3';
       }
     }
     &-c {
@@ -84,13 +84,14 @@
   // Contact
   #contact {
     &-a {
-      .textfields {
-        grid-template-columns:
-          "name"
-          "sunject"
-          "email"
-          "phone"
-          "message";
+      .text-fields {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          'name'
+          'subject'
+          'email'
+          'phone'
+          'message';
       }
     }
     &-b {
