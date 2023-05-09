@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+  <section id="work-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">My Work</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Check out some of my projects</p>
+      <items>
+        <item>
+          <item-image>
+            <img src="img/items/item1.png" alt="Picture of the landing page of Joana Bossa Jewerly Website" />
+          </item-image>
+          <item-text>
+            <item-text-wrap>
+              <a href="https://www.joanabossajewelry.com/">
+                <item-text-category>ONLINE STORE</item-text-category>
+                <item-text-title>Joana Bossa Jewerly</item-text-title>
+                <item-text-description>Ruby on Rails, HTML, CSS, JS, Bootstrap, Paypal, Heroku</item-text-description>
+              </a>
+            </item-text-wrap>
+          </item-text>
+        </item>
+        <item>
+          <item-image>
+            <img src="img/items/item2.png" alt="Picture of the landing page of Evgenia Manolova's portfolio website" />
+          </item-image>
+          <item-text>
+            <item-text-wrap>
+              <a href="https://www.evgenia-manolova.com/">
+                <item-text-category>HR PORTFOLIO</item-text-category>
+                <item-text-title>Evgenia Manolova</item-text-title>
+                <item-text-description>Ruby on Rails, HTML, CSS, JS, Bootstrap, Canva, Heroku</item-text-description>
+              </a>
+            </item-text-wrap>
+          </item-text>
+        </item>
+      </items>
+    </div>
+  </section>
+</portfolio>
