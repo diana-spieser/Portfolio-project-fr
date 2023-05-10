@@ -326,7 +326,13 @@ img {
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #e176e9;
-  margin: 1rem; }
+  margin: 1rem;
+  transition: transform 0.3s; }
+  #about-a .award-1 .fas:hover,
+  #about-a .award-2 .fas:hover,
+  #about-a .award-3 .fas:hover {
+    color: #ccc;
+    transform: scale(1.5); }
 
 #about-b .progress {
   overflow: hidden;

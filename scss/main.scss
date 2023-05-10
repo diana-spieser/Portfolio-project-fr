@@ -244,6 +244,11 @@ img {
     .award-3 .fas {
       color: $main-color;
       margin: 1rem;
+      transition: transform 0.3s;
+      &:hover {
+        color: $medium-color;
+        transform: scale(1.5);
+      }
     }
   }
   // About Section B
