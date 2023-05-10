@@ -238,13 +238,18 @@ img {
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
     color: #e176e9;
-    padding-bottom: 0.4rem; }
+    padding-bottom: 0.4rem;
+    transition: transform 0.3s; }
+  #home-a .specials .fas:hover {
+    transform: scale(1.5); }
 
 #home-b .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
   #home-b .stats li {
     line-height: 2; }
+    #home-b .stats li:hover {
+      color: #e176e9; }
     #home-b .stats li.stats-title {
       font-size: 1.5rem; }
     #home-b .stats li.stats-number {

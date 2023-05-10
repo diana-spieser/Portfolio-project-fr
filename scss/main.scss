@@ -113,6 +113,11 @@ img {
       .fas {
         color: $main-color;
         padding-bottom: 0.4rem;
+        transition: transform 0.3s;
+      }
+
+      .fas:hover {
+        transform: scale(1.5);
       }
     }
   }
@@ -125,6 +130,9 @@ img {
 
       li {
         line-height: 2;
+        &:hover {
+          color: $main-color;
+        }
 
         &.stats-title {
           font-size: 1.5rem;
