@@ -34,49 +34,57 @@
     </header>
 
     <!-- Section A: Contact Form -->
-    <section id="contact-a" class="text-center py-3">
-      <div class="container">
-        <h2 class="section-title">Contactez-moi</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">Voici comment vous pouvez me contacter</p>
-        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
-          <div class="text-fields">
-            <input
-              type="text"
-              class="text-input name-input"
-              placeholder="Nom"
-              name="name"
-            />
-            <input
-              type="text"
-              class="text-input subject-input"
-              placeholder="Sujet"
-              name="subject"
-            />
-            <input
-              type="email"
-              class="text-input email-input"
-              placeholder="Adresse e-mail"
-              name="email"
-            />
-            <input
-              type="text"
-              class="text-input phone-input"
-              placeholder="Numéro de téléphone"
-              name="phone"
-            />
-            <textarea
-              class="text-input message-input"
-              placeholder="Saisissez votre message"
-              name="message"
-            ></textarea>
-            <div class="my-2"></div>
-            <div data-netlify-recaptcha="true"></div>
-          </div>
-          <button type="submit" class="btn-dark">Envoyer</button>
-        </form>
+    <!-- Section A: Contact Form -->
+<section id="contact-a" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">Contactez-moi</h2>
+    <div class="bottom-line"></div>
+    <p class="lead">Voici comment vous pouvez me contacter</p>
+    <form method="POST" data-netlify="true" data-netlify-recaptcha="true" name="contact-form">
+      <div class="text-fields">
+        <input
+          type="text"
+          class="text-input name-input"
+          placeholder="Nom"
+          name="name"
+        />
+        <input
+          type="text"
+          class="text-input subject-input"
+          placeholder="Sujet"
+          name="subject"
+        />
+        <input
+          type="email"
+          class="text-input email-input"
+          placeholder="Adresse e-mail"
+          name="email"
+        />
+        <input
+          type="text"
+          class="text-input phone-input"
+          placeholder="Numéro de téléphone"
+          name="phone"
+        />
+        <textarea
+          class="text-input message-input"
+          placeholder="Saisissez votre message"
+          name="message"
+        ></textarea>
+        <div class="my-2"></div>
+        <div style="display: none;">
+          <label>
+            Ne pas remplir ce champ si vous êtes un humain :
+            <input type="hidden" name="bot-field" data-netlify-honeypot="true" />
+          </label>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
       </div>
-    </section>
+      <button type="submit" class="btn-dark">Envoyer</button>
+    </form>
+  </div>
+</section>
+
 
     <!-- Section B: Contact Info -->
 
